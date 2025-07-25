@@ -7,3 +7,15 @@ var hits = 0;
 var guesses = 0;
 
 var isSunk = false;
+
+while (isSunk == false) {
+
+guess = prompt("Ready, aim, fire! (enter a number 0-6:)");
+
+ if(guess < 0 || guess > 6){
+    alertt("please enter a valid cell number!");
+ }else{
+    guesses = guesses + 1;
+ }
+
+}
